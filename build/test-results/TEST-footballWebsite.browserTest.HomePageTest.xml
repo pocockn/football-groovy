@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="footballWebsite.browserTest.HomePageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-27T15:11:32" hostname="pocockn" time="4.745">
+  <properties/>
+  <testcase name="check title on homepage" classname="footballWebsite.browserTest.HomePageTest" time="4.368"/>
+  <testcase name="check h1 on homepage" classname="footballWebsite.browserTest.HomePageTest" time="0.377"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO ratpack.server.RatpackServer - Starting server...
+[Test worker] INFO ratpack.server.RatpackServer - Building registry...
+[Test worker] INFO ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:44076
+[ratpack-compute-1-2] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /favicon.ico
+[ratpack-compute-1-2] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /favicon.ico
+[Test worker] INFO ratpack.server.RatpackServer - Starting server...
+[Test worker] INFO ratpack.server.RatpackServer - Building registry...
+[Test worker] INFO ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:43927
+[ratpack-compute-5-2] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /favicon.ico
+[ratpack-compute-5-2] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /favicon.ico
+]]></system-err>
+</testsuite>

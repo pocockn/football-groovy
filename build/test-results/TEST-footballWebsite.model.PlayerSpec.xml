@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="footballWebsite.model.PlayerSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-04-27T15:11:32" hostname="pocockn" time="0.132">
+  <properties/>
+  <testcase name="Test player validation works" classname="footballWebsite.model.PlayerSpec" time="0.107"/>
+  <testcase name="Validation of multiple player data footballWebsite.model.Player@75c000e3 #Error:error" classname="footballWebsite.model.PlayerSpec" time="0.018"/>
+  <testcase name="Validation of multiple player data footballWebsite.model.Player@13e9a94e #Error:error" classname="footballWebsite.model.PlayerSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 27, 2016 4:11:32 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 5.2.1.Final
+]]></system-err>
+</testsuite>

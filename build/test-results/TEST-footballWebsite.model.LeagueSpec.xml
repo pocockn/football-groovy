@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="footballWebsite.model.LeagueSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-04-27T15:11:32" hostname="pocockn" time="0.039">
+  <properties/>
+  <testcase name="Test league validation works" classname="footballWebsite.model.LeagueSpec" time="0.032"/>
+  <testcase name="Validation of multiple player data footballWebsite.model.League@18c18b4f #Error:error" classname="footballWebsite.model.LeagueSpec" time="0.005"/>
+  <testcase name="Validation of multiple player data footballWebsite.model.League@725f79a7 #Error:error" classname="footballWebsite.model.LeagueSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
