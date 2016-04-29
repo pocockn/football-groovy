@@ -8,4 +8,5 @@ import ratpack.handling.InjectionHandler
 class AddNewPlayerHandle extends InjectionHandler {
 
 //    void handle(Context ctx, )
+
 }

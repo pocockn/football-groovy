@@ -10,6 +10,7 @@ buildscript {
 
 apply plugin: "io.ratpack.ratpack-groovy"
 apply plugin: "com.github.johnrengelman.shadow"
+apply plugin: 'java'
 apply plugin: "idea"
 
 repositories {
