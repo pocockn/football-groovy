@@ -1,28 +1,21 @@
 import footballWebsite.handlers.AddNewPlayerHandle
-import ratpack.groovy.template.MarkupTemplateModule
 import ratpack.handlebars.HandlebarsModule
-import static ratpack.handlebars.Template.handlebarsTemplate;
 
-import static ratpack.groovy.Groovy.groovyMarkupTemplate
 import static ratpack.groovy.Groovy.ratpack
+import static ratpack.handlebars.Template.handlebarsTemplate
 
 ratpack {
   bindings {
     module HandlebarsModule
+    bind AddNewPlayerHandle
   }
 
   handlers {
     get {
       render handlebarsTemplate("index.html")
-        bind AddNewPlayerHandle
     }
 
-    prefix("api") {
-
-      get ("add_player") {
-          render handlebarsTemplate("add-new-player.html")
-      }
-    }
+    path "api/add-new-player", AddNewPlayerHandle
 
     files { dir "public" }
   }
